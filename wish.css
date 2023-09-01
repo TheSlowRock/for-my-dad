@@ -1,0 +1,46 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.f1 {
+    margin: 20px 30px;
+    rotate: -12deg;
+}
+
+.f2 {
+    float: right;
+    rotate: 10deg;
+}
+
+.f3 {
+    margin: 300px 200px 0px;
+    rotate: 9.5deg;
+}
+
+.f4 {
+    float: right;
+    top: 400px;
+    right: 10px;
+    position: absolute;
+    rotate: -7.5deg;
+}
+
+.er {
+    animation: floating 3.5s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); } } 
+
+#f5 {
+    position: absolute;
+    top: 0px;
+    right: 400px;
+}
+
+.df3 {
+    position: absolute;
+    top: 0px
+}

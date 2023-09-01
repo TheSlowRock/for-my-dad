@@ -1,0 +1,73 @@
+.a {
+    width: 550px;
+    height: 375px;
+    animation-timing-function: linear;
+    rotate: -8deg;
+}
+
+.b {
+    height: 500px;
+    animation-timing-function: ease;
+    rotate: 7deg;
+}
+
+.c {
+    height: 550px;
+    animation-timing-function: ease-in;
+    rotate: 8.5deg;
+
+}
+
+.d {
+    width: 550px;
+    animation-timing-function: linear;
+    rotate: -9deg;
+
+}
+
+.e {
+    height: 550px;
+    animation-timing-function: ease-out;
+    rotate: 10deg;
+
+}
+
+.f {
+    width: 550px;
+    animation-timing-function: ease;
+    rotate: -7.75deg;
+
+}
+
+.g {
+    height: 550px;
+    animation-timing-function: ease-in-out;
+    rotate: -6deg;
+
+}
+
+/* .container {
+   
+    justify-content:space-around;
+    
+    flex-wrap: wrap;
+}  */
+
+.er {
+    margin: 50px;
+    position: relative;
+    animation: floating 3.5s ease infinite;
+}
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); } } 
+body {
+    background-color: blanchedalmond;
+    
+}
+
+.df3 {
+    position: absolute;
+    top: 0px
+}
